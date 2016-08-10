@@ -4,7 +4,10 @@
 # 然后根据返回值是True还是False决定保留还是丢弃该元素。
 
 # 取奇数
-
+# filter(function or None, sequence) -> list, tuple, or string
+# function是一个谓词函数，接受一个参数，返回布尔值True或False。
+# filter函数会对序列参数sequence中的每个元素调用function函数，最后返回的结果包含调用结果为True的元素。
+# 返回值的类型和参数sequence的类型相同
 
 def is_odd(n):
     return n % 2 == 1
