@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa58581-f95d-41f3-9c25-68ab52e7bbf4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/itertoolsTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FilterFunc.py" afterPath="$PROJECT_DIR$/FilterFunc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MapAndReduce.py" afterPath="$PROJECT_DIR$/MapAndReduce.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itertoolsTest.py" afterPath="$PROJECT_DIR$/itertoolsTest.py" />
     </list>
     <ignored path="LearnPython.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +18,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LearnPython$taskManager.coverage" NAME="taskManager Coverage Results" MODIFIED="1470644509613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LearnPython$itertoolsTest.coverage" NAME="itertoolsTest Coverage Results" MODIFIED="1470797727035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnPython$itertoolsTest.coverage" NAME="itertoolsTest Coverage Results" MODIFIED="1470816089146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$threadLocalTest.coverage" NAME="threadLocalTest Coverage Results" MODIFIED="1470389116745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$passMd5.coverage" NAME="passMd5 Coverage Results" MODIFIED="1470736245303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$useAllCpu.coverage" NAME="useAllCpu Coverage Results" MODIFIED="1470385744810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,96 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="threadLock.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadLock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="useAllCpu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/useAllCpu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="threadLocalTest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadLocalTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <marker date="1470389089097" expanded="true" signature="118:205" ph="..." />
-                <marker date="1470389089097" expanded="true" signature="232:313" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taskManager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taskManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding>
-                <element signature="e#24#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LastUpdatedOrderedDict.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LastUpdatedOrderedDict.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passMd5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passMd5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itertoolsTest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="itertoolsTest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/itertoolsTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="36" column="58" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapAndReduce.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapAndReduce.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterFunc.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FilterFunc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="660">
+              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -158,9 +71,9 @@
         <option value="$PROJECT_DIR$/taskManager.py" />
         <option value="$PROJECT_DIR$/LastUpdatedOrderedDict.py" />
         <option value="$PROJECT_DIR$/passMd5.py" />
-        <option value="$PROJECT_DIR$/itertoolsTest.py" />
         <option value="$PROJECT_DIR$/MapAndReduce.py" />
         <option value="$PROJECT_DIR$/FilterFunc.py" />
+        <option value="$PROJECT_DIR$/itertoolsTest.py" />
       </list>
     </option>
   </component>
@@ -231,7 +144,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/mingw32/libexec/git-core/git.exe" />
   </component>
-  <component name="RunManager" selected="Python.FilterFunc">
+  <component name="RunManager" selected="Python.itertoolsTest">
     <configuration default="false" name="LastUpdatedOrderedDict" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -533,9 +446,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.FilterFunc" />
-        <item index="1" class="java.lang.String" itemvalue="Python.MapAndReduce" />
-        <item index="2" class="java.lang.String" itemvalue="Python.itertoolsTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.itertoolsTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.FilterFunc" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MapAndReduce" />
         <item index="3" class="java.lang.String" itemvalue="Python.passMd5" />
         <item index="4" class="java.lang.String" itemvalue="Python.LastUpdatedOrderedDict" />
       </list>
@@ -562,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470794196148</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2016-08-10">
+      <created>1470798421911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470798421911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -664,26 +584,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/itertoolsTest.py">
+    <entry file="file://$PROJECT_DIR$/FilterFunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="325">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MapAndReduce.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FilterFunc.py">
+    <entry file="file://$PROJECT_DIR$/itertoolsTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="660">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding />
         </state>
       </provider>
