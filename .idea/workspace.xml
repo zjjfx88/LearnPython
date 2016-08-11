@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa58581-f95d-41f3-9c25-68ab52e7bbf4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TkinterGUITest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/socketClient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/socketServer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/socketTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UDPClient.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UDPServer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearnPython.iws" />
@@ -22,6 +20,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/LearnPython$socketTest.coverage" NAME="socketTest Coverage Results" MODIFIED="1470900968207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$ImageDraw.coverage" NAME="ImageDraw Coverage Results" MODIFIED="1470883246978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LearnPython$UDPClient.coverage" NAME="UDPClient Coverage Results" MODIFIED="1470907396567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$taskManager.coverage" NAME="taskManager Coverage Results" MODIFIED="1470644509613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$itertoolsTest.coverage" NAME="itertoolsTest Coverage Results" MODIFIED="1470816089146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LearnPython$XMLTest.coverage" NAME="XMLTest Coverage Results" MODIFIED="1470818567424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -68,11 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socketClient.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="socketClient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socketClient.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UDPServer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UDPServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UDPClient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UDPClient.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -126,6 +145,8 @@
         <option value="$PROJECT_DIR$/socketTest.py" />
         <option value="$PROJECT_DIR$/socketClient.py" />
         <option value="$PROJECT_DIR$/socketServer.py" />
+        <option value="$PROJECT_DIR$/UDPServer.py" />
+        <option value="$PROJECT_DIR$/UDPClient.py" />
       </list>
     </option>
   </component>
@@ -196,25 +217,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_25d850739bc178b2eb13c3e2a9faafea2f9143c0/mingw32/libexec/git-core/git.exe" />
   </component>
-  <component name="RunManager" selected="Python.socketClient">
-    <configuration default="false" name="ImageDraw" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LearnPython" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageDraw.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.UDPClient">
     <configuration default="false" name="TkinterGUITest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,6 +286,24 @@
       <module name="LearnPython" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socketClient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UDPClient" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LearnPython" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UDPClient.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -496,19 +517,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ImageDraw" />
-      <item index="1" class="java.lang.String" itemvalue="Python.TkinterGUITest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.socketTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.socketServer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.socketClient" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TkinterGUITest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.socketTest" />
+      <item index="2" class="java.lang.String" itemvalue="Python.socketServer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.socketClient" />
+      <item index="4" class="java.lang.String" itemvalue="Python.UDPClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.socketClient" />
-        <item index="1" class="java.lang.String" itemvalue="Python.socketServer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.socketTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TkinterGUITest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ImageDraw" />
+        <item index="0" class="java.lang.String" itemvalue="Python.UDPClient" />
+        <item index="1" class="java.lang.String" itemvalue="Python.socketClient" />
+        <item index="2" class="java.lang.String" itemvalue="Python.socketServer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.socketTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TkinterGUITest" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470883404012</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2016-08-11">
+      <created>1470906734751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1470906734751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -809,6 +837,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UDPClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UDPServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
